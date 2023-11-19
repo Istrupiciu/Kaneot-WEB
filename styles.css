@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Rubik Mono One", monospace;
+  height: 100vh;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+section {
+  background-color: azure;
+  border-radius: 5px;
+  margin: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+}
+
+section h1 {
+  font-size: 40px;
+}
+
+section .servicos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .servico {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 350px;
+  background-color: beige;
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px slategrey;
+  justify-content: center;
+}
+
+section img {
+  border-radius: 10px;
+  width: 325px;
+  height: 300px;
+}
+
+section p {
+  text-indent: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.menu {
+  font-family: "Rubik Mono One", monospace;
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+
+.menu img {
+  width: 100px;
+  transition: background-color 1s, color 1s;
+  display: block;
+  text-decoration: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu .btns {
+  display: block;
+  padding: 25px 100px;
+  transition: background-color 1s, color 1s;
+  text-decoration: none;
+}
+
+.menu .btns:active,
+.menu .btns:hover {
+  background-color: teal;
+  color: white;
+}
