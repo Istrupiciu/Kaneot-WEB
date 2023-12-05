@@ -22,10 +22,21 @@ section {
   border-radius: 5px;
   margin: 100px;
   margin-left: 0px;
-  margin-right:0px;
+  margin-right: 0px;
   padding: 150px;
-  padding-top: 80px ;
+  padding-top: 80px;
   padding-bottom: 80px;
+  padding-right: auto;
+  padding-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
 }
 
 section h1 {
@@ -56,6 +67,11 @@ section .servico {
   font-size: 20px;
   box-shadow: 5px 5px 10px slategrey;
   justify-content: center;
+}
+
+
+section .sobre {
+  flex-wrap: nowrap;
 }
 
 section img {
@@ -106,12 +122,14 @@ section p {
 
 .menu .btns:active,
 .menu .btns:hover {
-  background-color: teal;
+  background-color: darkgrey;
   color: white;
 }
 
 .contato a {
-    color: black;
-    font-size: 4em;
-    transition: text-shadow 1s;
+  height: 150px;
+  width: 300px;
+  color: black;
+  font-size: 4em;
+  transition: text-shadow 1s;
 }
