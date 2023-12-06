@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-color: dodgerblue;
+  background-color: #000055ff;
   font-family: "Rubik Mono One", monospace;
   height: 100vh;
   font-size: 12px;
@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  background-color: azure;
+  background-color: #d4d4d4ff;
   border-radius: 5px;
   margin: 100px;
   margin-left: 0px;
@@ -62,7 +62,7 @@ section .servico {
   flex-direction: column;
   border-radius: 10px;
   width: 450px;
-  background-color: lightblue;
+  background-color: #bababaff;
   padding: 10px;
   font-size: 20px;
   box-shadow: 5px 5px 10px slategrey;
@@ -89,7 +89,7 @@ section p {
 
 .menu {
   font-family: "Rubik Mono One", monospace;
-  background-color: white;
+  background-color: #bebebeff;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -130,6 +130,6 @@ section p {
   height: 150px;
   width: 300px;
   color: black;
-  font-size: 4em;
+  font-size: 1em;
   transition: text-shadow 1s;
 }
