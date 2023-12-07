@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-color: #000055ff;
+  background-color: #51AFF7;
   font-family: "Rubik Mono One", monospace;
   height: 100vh;
   font-size: 12px;
@@ -90,6 +90,7 @@ section p {
 .menu {
   font-family: "Rubik Mono One", monospace;
   background-color: #bebebeff;
+  color: #bb0b0b;
   position: fixed;
   width: 100vw;
   top: 0;
