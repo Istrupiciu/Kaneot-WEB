@@ -90,7 +90,6 @@ section p {
 .menu {
   font-family: "Rubik Mono One", monospace;
   background-color: #bebebeff;
-  color: #bb0b0b;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -119,6 +118,7 @@ section p {
   padding: 25px 100px;
   transition: background-color 1s, color 1s;
   text-decoration: none;
+  color: #bb0b0b;
 }
 
 .menu .btns:active,
